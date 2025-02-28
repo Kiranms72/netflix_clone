@@ -17,10 +17,10 @@ function Banner({ fetchurl }) {
   }
   // Use effect()
   useEffect(() => {
-    // setInterval(() => {
-    //   fetchData()
-    // },2000)
-    fetchData()
+    setInterval(() => {
+      fetchData()
+    },4000)
+
   }, [])
   return (
     <>
